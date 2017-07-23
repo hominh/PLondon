@@ -1,0 +1,63 @@
+.img-box .itemslider-thumbnails {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.img-box .more-images .thumbnails.slides {
+    display: none !important;
+}
+.img-box-style1 .more-images .thumbnails .owl-wrapper-outer {
+    
+}
+.owl-carousel .owl-item {
+    float: left !important;
+}
+.img-box-style1 .more-images .thumbnails .item3 a:hover {
+    
+    /* TODO: Not needed if items not adjacent?; */
+}
+.img-box-style1 .more-images .thumbnails .item3 a {
+    margin: 0 2px 4px !important;
+    
+   	
+}
+.img-box .more-images .thumbnails .item3 a {
+    
+    display: block !important;
+    overflow: hidden !important;
+    text-decoration: none !important;
+    text-align: center !important;
+}
+.img-box .more-images .thumbnails .item3 a {
+    
+    display: block !important;
+    overflow: hidden !important;
+    text-decoration: none !important;
+    text-align: center !important;
+}
+.item3 {
+	float: left !important;
+	border: 1px solid #d7d7d7;
+	width: 29%;
+	padding: 5px 8px 5px 8px ;
+	margin-left: 4%;
+}
+.owl-carousel .owl-item {
+    float: left;
+}
+.owl-carousel .owl-wrapper {
+    display: none;
+    position: relative;
+   
+}
+.item3 a{
+	text-align: center !important;
+}
+.item3 img {
+	width: 100%;
+	
+	text-align: center !important;
+}
+.bw {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}

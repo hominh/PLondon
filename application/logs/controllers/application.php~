@@ -1,0 +1,22 @@
+<?php
+
+class Appilcation extends CI_Controller {
+
+    protected $_data;
+
+    function __construct() {
+        parent::__construct();
+        $this->load->helper("slug");
+        $this->load->helper('url');
+        //$this->load->model(array('categoriesnews_model','mconfig','mnews'));
+        //Get category of new
+        $this->load->model(array('categoriesnews_model', 'slides_model'));
+        $this->_data['infocategorynew'] = $this->categoriesnews_model->getList();
+
+        $this->_data['infoslide'] = $this->slides_model->getList();
+        //Get Slide
+    }
+
+}
+
+?>
